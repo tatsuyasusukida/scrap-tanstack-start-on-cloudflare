@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "my-start-app",
+  "main": ".output/server/index.mjs",
+  "compatibility_date": "2025-09-04",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".output/public"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "CACHE",
+      "id": "01312d87a42c4799848a949577dded76"
+    }
+  ]
+}
